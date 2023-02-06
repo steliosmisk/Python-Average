@@ -3,7 +3,7 @@ print("[1] Start")
 print("[2] Exit")
 user_choice = int(input("Enter (1/2): "))
 
-while user_choice == 1 and user_choice != 2:
+while user_choice == 1:
     try:
         subjects_list = []
         user_subjects = int(input(">> Enter, how many subjects you want: "))
