@@ -1,8 +1,8 @@
 print("--Welcome to Average Calculator--")
 print("[1] Start")
 print("[2] Exit")
-user_choice = int(input("Enter (1/2): "))
 
+user_choice = int(input("Enter (1/2): "))
 while user_choice == 1:
     try:
         subjects_list = []
@@ -15,5 +15,3 @@ while user_choice == 1:
         break
     except ValueError:
         print("Enter a valid value!")
-    except ZeroDivisionError:
-        print("You cannot divide by zero")
